@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/JacqQVis" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
