@@ -1,7 +1,7 @@
 # JacqQVis
 A QGIS plugin that renders output from pyJacqQ.
 
-pyJacqQ detects space-time clusters in case-control studies. Results from pyJacqQ can be imported as layers from CSVs into QGIS. This plugin allows visualizing the resulting clusters through time.
+[pyJacqQ](https://github.com/sjirjies/pyJacqQ) detects space-time clusters in case-control studies. Results from pyJacqQ can be imported as layers from CSVs into QGIS. This plugin allows visualizing the resulting clusters through time.
 
 ## Dependencies
 This plugin requires QGIS 2.0 or greater.
@@ -25,7 +25,7 @@ The visualization requires three of the statistical result files from pyJacqQ: g
 4. Ensure that each type of statistical layer is present only once under the Layers panel.
 
 ## Visualizing Clusters
-Launch the plugin by selecting ![Icon](icon.png?raw=true "JacqQVis Icon.") from the plugins menu bar or selecting Plugins | Jacquez's Q Visualization | Visualize space-time clusters. It will scan through your open layers and detect the required statistical layers. You will receive an error if you are missing a required layer or if it detects multiple layers of the same statistical type. The following screenshot displays the dialog with simulated cluster data:
+Launch the plugin by selecting ![Icon](icon_small.png?raw=true "JacqQVis Icon.") from the plugins menu bar or selecting Plugins | Jacquez's Q Visualization | Visualize space-time clusters. It will scan through your open layers and detect the required statistical layers. You will receive an error if you are missing a required layer or if it detects multiple layers of the same statistical type. The following screenshot displays the dialog with simulated cluster data:
 
 ![Dialog Visualization](screenshot.png?raw=true "JacqQVis date selection dialog.")
 
